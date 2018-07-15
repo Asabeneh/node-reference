@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contact</title>
+</head>
+<body>
+    <h3>Contact Us</h3>
+    <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <hr />  
+        </ul>
+        <form method="post" action = "/users">
+            <label for="firstname">First Name:</label>
+            <input id ="firstname" type="text" name="firstname" placeholder="First name" /><br/>
+            <label for="lastname">Last Name:</label>
+            <input id ="lastname" type="text" name="lastname" placeholder="Last name" /><br/>
+            <label for="email">Email:</label>
+            <input id ="email" type="email" name="email" placeholder="Email" /><br/>
+            <input id ="photo" type="file" name="photo" placeholder="Photo" /><br/>
+            <label for="message">Message:</label><br />
+            <textarea id ="firstname" rows="10" cols="50" name="content"/>Leave a message</textarea> <br />
+            <button type="submit" value ="Add" /> Add User</button>
+        </form>
+</body>
+</html>
